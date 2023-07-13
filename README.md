@@ -1,7 +1,11 @@
 # Finkargo Test
 
-Este es un proyecto de ejemplo que demuestra el uso de los principios SOLID, así como el uso de repositories y el patrón Singleton.
+Este es un proyecto de ejemplo que demuestra el uso de: 
 
+1 . los principios SOLID 
+2 . uso de repositories 
+3 . el patrón Singleton.
+4 . Arquitectura Hexagonal
 
 ## CI
 Se implemento un flujo para CI para la validacion de pruebas unitarias , linter y formato del codigo para pririzar la calidad al momento de realizar el merge a la rama master
