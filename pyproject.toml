@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "test-Finkargo"
+version = "0.1.0"
+description = "Descripción del proyecto"
+authors = ["Sebastian Noreña Marquez <sebastian.norena.marquez@gmail.com>"]
+
+[tool.poetry.group.dev.dependencies]
+pytest-mock = "^3.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^2.0.0"
+pyjwt = "^2.3.0"
+jsonschema = "^4.18.2"
+sqlalchemy = "^2.0.18"
+flask-testing = "^0.8.1"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+
+[tool.poetry.scripts]
+lint = "flake8 --exclude=venv,.venv,.git,__pycache__,dist,build,tests"
+
