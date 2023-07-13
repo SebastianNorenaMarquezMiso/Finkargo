@@ -7,6 +7,12 @@ Este es un proyecto de ejemplo que demuestra el uso de los principios SOLID, as�
 Se implemento un flujo para CI para la validacion de pruebas unitarias , linter y formato del codigo para pririzar la calidad al momento de realizar el merge a la rama master
 
 
+![Screenshot 2023-07-13 at 3 50 16 AM](https://github.com/SebastianNorenaMarquezMiso/Finkargo/assets/78800255/bc53b325-dff2-4070-837e-6cf721cd0c4a)
+
+
+## Coleccion de postman 
+https://github.com/SebastianNorenaMarquezMiso/Finkargo/blob/main/TEST.postman_collection.json
+
 ## Requisitos
 
 - Python 3.8 o superior
@@ -56,7 +62,6 @@ El proyecto utiliza las siguientes librerías y herramientas:
 
 En este proyecto, se utiliza el patrón Repository para separar la lógica de acceso a datos de la lógica de negocio. Los repositories proporcionan una abstracción sobre el almacenamiento de datos y permiten intercambiar fácilmente implementaciones sin afectar otras partes del código.
 
-El archivo `contact_repository.py` en el directorio `database/repositories` contiene la implementación del repository para la entidad "Contact". Proporciona métodos para crear, obtener, actualizar y eliminar contactos en el almacenamiento de datos.
 ## Uso de Singleton
 
 El patrón Singleton se utiliza en el archivo `database.py` en el directorio `database` para asegurar que solo exista una única instancia de la base de datos en toda la aplicación. Esto garantiza que el acceso a la base de datos sea consistente y evita problemas de concurrencia.
